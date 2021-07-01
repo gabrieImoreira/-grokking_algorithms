@@ -5,6 +5,7 @@ int binarySearch(int *, int, int);
 int main()
 {
     int myList[] = {1, 3, 5, 7, 9};
+    
     int len = sizeof(myList) / sizeof(myList[0]);
 
     printf("%d\n", binarySearch(myList, 3, len));  // 1
